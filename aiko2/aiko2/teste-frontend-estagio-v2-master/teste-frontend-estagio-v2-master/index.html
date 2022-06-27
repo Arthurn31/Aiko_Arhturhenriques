@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!--link do css do mapa fornecido pela Leaflet-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+      integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+      crossorigin=""
+    />
+    <!--link do Js do mapa fornecido pela Leaflet-->
+    <script
+      src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+      integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+      crossorigin=""
+    ></script>
+    <!--Link do css interno dos outros intens tirando o mapa-->
+    <link rel="stylesheet" href="style.css" />
+    <title>Test Arthur Henriques</title>
+  </head>
+  <!--Inicio do corpo do texto-->
+  <body>
+    <!--logo-->
+    <a href="index.html"><div class="logo"></div></a>
+    <!--inicio do menu-->
+    <nav id="menu-h">
+      <ul>
+        <li>
+          <a href="https://aiko.digital/"> Home </a>
+        </li>
+
+        <li><a href="https://aiko.digital/sobre/">Sobre</a></li>
+
+        <li><a href="https://aiko.digital/blog/">Quem Somos</a></li>
+
+        <li><a href="https://aiko.digital/contato/">Contato</a></li>
+      </ul>
+    </nav>
+    <!--fim do menu-->
+    <!--inicio do mapa-->
+    <div id="mapid"></div>
+    <!--fim do mapa-->
+    <!--inicio do rodape-->
+    <footer id="myFooter">
+      <div class="container">
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/arthur-henriques-1b511820b/"
+              ><img src="./img/linkedin.png" height="40" width="40"
+            /></a>
+          </li>
+          <li>
+            <a href="https://cotemig.com.br/">
+              <img src="./img/cotemig.jpg" height="40" width="40"
+            /></a>
+          </li>
+          <li>
+            <a href="https://mail.google.com/mail/u/0/#inbox"
+              ><img src="./img/gmail-logo-.png" height="40" width="40"
+            /></a>
+          </li>
+        </ul>
+        <p class="footer-copyright">
+          © 2022 Copyright - Arthur Henriques - Todos os direitos
+          reservados.
+        </p>
+      </div>
+    </footer>
+    <!--fim do rodape-->
+    <!--inicio do js interno para fazer as função do mapa funcionarem-->
+    <script src="script.js"></script>
+    <!--fim do copro do texto-->
+  </body>
+</html>
